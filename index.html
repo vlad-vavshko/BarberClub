@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Barber Club </title>
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet/less" type="text/css" href="css/main.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/adaptive.less"/>
+    <script src="//cdn.jsdelivr.net/npm/less"></script>
+
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">
+        <img src="./images/scissors.png" alt="Logo">
+        <span>Barber club</span>
+    </a>
+    <nav class="menu">
+        <a href="#about-us" class="menu-item active">О нас</a>
+        <a href="#our-services" class="menu-item">Услуги</a>
+        <a href="#sale" class="menu-item">Акции</a>
+        <a href="#our-masters" class="menu-item">Наши мастера</a>
+        <a href="#contacts" class="menu-item">Контакты</a>
+        <div id="burger-close">
+            <img src="./images/close.png" alt="Close">
+        </div>
+    </nav>
+    <div class="action-header">
+        <div class="contact-phone">
+            <a href="tel:+380 (98) 816-93-96">+380 (98) 816-93-96</a>
+        </div>
+        <button class="order-call-btn">
+            <img src="./images/phone.png" alt="Phone">
+            <span>Заказать звонок</span>
+        </button>
+    </div>
+    <svg id="burger-menu" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+         xmlns="http://www.w3.org/2000/svg">
+        <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+        <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+        <path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/>
+    </svg>
+</header>
+
+<section id="main" class="main wow animate__slideInLeft" >
+    <div class="main-container">
+        <div class="main-description">
+            <div class="main-title">
+                <span>Barber Club</span> - место <br> для настоящих мужчин
+            </div>
+            <div class="main-text">
+                Создайте деловой имидж, который достоин Вас!
+                Получите скидку <span>15%</span> на ваш первый визит
+            </div>
+            <button class="red-button order-request">
+                <span>Записаться</span>
+            </button>
+        </div>
+        <div class="main-image">
+            <img src="./images/man-first-block.png" alt="Barber Club Men">
+            <div id="main-image-before" class="main-image-text">Barber</div>
+            <div id="main-image-after" class="main-image-text">Club</div>
+        </div>
+    </div>
+</section>
+
+<section id="about-us" class="about-us wow animate__slideInRight">
+    <div class="about-us-container">
+        <div class="about-us-img">
+            <img src="./images/about-us-img.png" alt="Barber Shop">
+            <img src="./images/blade.png" alt="Blade">
+        </div>
+        <div class="about-us-info">
+            <div class="general-title">
+                О нас
+            </div>
+            <div class="about-us-info-text">
+                <p>У нас есть всё, что требуется настоящему мужчине: атмосфера брутальности и мужского духа,
+                    профессионализм барберов и сохранение европейских традиций барберинга, а также отличный кофе и
+                    хорошая компания.
+                </p>
+                <p>
+                    Barber Club – это намного больше, чем просто мужская парикмахерская. Это место, где Вам помогут
+                    найти свой собственный, неповторимый стиль. Стоит довериться мастерам Barber Club один раз, и,
+                    поверьте, новый образ не оставит Вас равнодушным. Мужские стрижки и опасное бритье — это наш
+                    профиль, и мы уверены, что наши барберы делают это лучше всех.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="features-container">
+        <div class="feature">
+            <img src="./images/cup.png" alt="Cup">
+            <span>
+                Мы предложим вам чашечку кофе или чая
+            </span>
+        </div>
+        <div class="feature">
+            <img src="./images/grooming.png" alt="Grooming">
+            <span>
+                Мы пострижем и побреем вас по всем европейским традициям
+            </span>
+        </div>
+        <div class="feature">
+            <img src="./images/hairstyle.png" alt="Hairstyle">
+            <span>
+                И скоро вы снова захотите вернуться в наш барбершоп
+            </span>
+        </div>
+    </div>
+
+</section>
+
+<section id="our-services" class="our-services wow animate__slideInLeft">
+    <div class="our-services-container">
+        <div class="general-title">Наши услуги</div>
+        <div class="our-services-container-content">
+            <div class="services-container">
+                <div class="category-container">
+                    <div class="category active" data-id="haircuts">Стрижки</div>
+                    <div class="category" data-id="shaving">Бритье</div>
+                    <div class="category" data-id="complex-services">Комплексные услуги</div>
+                    <div class="category" data-id="additional-services">Дополнительные услуги</div>
+                </div>
+                <div id="haircuts" class="products-container">
+                    <table class="services-table">
+                        <tr>
+                            <td class="service-title">Стрижка мужская</td>
+                            <td class="service-description">Подбор стрижки, 2 мытья, укладка</td>
+                            <td class="service-pricing">1400 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Стрижка удлиненная</td>
+                            <td class="service-description">Подбор стрижки, 2 мытья, укладка</td>
+                            <td class="service-pricing">2100 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Стрижка машинкой</td>
+                            <td class="service-description">Без ножниц</td>
+                            <td class="service-pricing">950 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Стрижка детская</td>
+                            <td class="service-description">
+                                От 4 до 14 лет включительно, не удлиненная
+                            </td>
+                            <td class="service-pricing">1100 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Стрижка бороды</td>
+                            <td class="service-description">С распариванием и окантовкой бритвой шаветт</td>
+                            <td class="service-pricing">950 руб.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="shaving" class="products-container">
+                    <table class="services-table">
+                        <tr>
+                            <td class="service-title">Бритье машинкой</td>
+                            <td class="service-description">Подбор бритья, 1 мытьё, укладка</td>
+                            <td class="service-pricing">950 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Королевское бритье</td>
+                            <td class="service-description">Бритье опасным лезвием</td>
+                            <td class="service-pricing">2000 руб.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="complex-services" class="products-container">
+                    <table class="services-table">
+                        <tr>
+                            <td class="service-title">Стрижка бороды и усов</td>
+                            <td class="service-description">Стрижка бороды и усов (с подбриванием)</td>
+                            <td class="service-pricing">1400 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Стрижка бороды и усов</td>
+                            <td class="service-description">Стрижка бороды и усов (без подбриванием)</td>
+                            <td class="service-pricing">1800 руб.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="additional-services" class="products-container">
+                    <table class="services-table">
+                        <tr>
+                            <td class="service-title">Укладка</td>
+                            <td class="service-description">Укладка волос гель лаком</td>
+                            <td class="service-pricing">300 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Камуфлирование седины</td>
+                            <td class="service-description">Камуфлирование седины на голове и на бороде</td>
+                            <td class="service-pricing">1000 руб.</td>
+                        </tr>
+                        <tr>
+                            <td class="service-title">Стрижка машинкой</td>
+                            <td class="service-description">Без ножниц</td>
+                            <td class="service-pricing">950 руб.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="button-container-center">
+                    <button class="red-button order-request">Записаться</button>
+                </div>
+
+            </div>
+            <div class="our-services-img">
+                <img src="./images/services.png" alt="Haircut">
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="our-masters" class="our-masters wow animate__slideInRight">
+    <div class="our-masters-container">
+        <div class="general-title">Наши мастера</div>
+        <div class="masters-description">
+            Вот они, простые герои, несущие в мир стиль и безупречный внешний вид. <br>
+            Команда Barber Club каждый день трудится над тем, чтобы создавать и поддерживать ваш индивидуальный стиль,
+            подчеркивать характер и превращать недостатки в достоинства.
+        </div>
+        <div class="our-masters-carousel">
+            <div class="carousel-item">
+                <div class="master-name">Барбер Алексей</div>
+                <button class="master-order order-request">Записаться &#8594;</button>
+                <img src="./images/barber1.png" alt="Barber 1">
+            </div>
+            <div class="carousel-item">
+                <div class="master-name">Барбер Роман</div>
+                <button class="master-order order-request">Записаться &#8594;</button>
+                <img src="./images/barber2.png" alt="Barber 2">
+            </div>
+            <div class="carousel-item">
+                <div class="master-name">Барбер Стас</div>
+                <button class="master-order order-request ">Записаться &#8594;</button>
+                <img src="./images/barber1.png" alt="Barber 1">
+            </div>
+            <div class="carousel-item">
+                <div class="master-name">Барбер Игорь</div>
+                <button class="master-order order-request">Записаться &#8594;</button>
+                <img src="./images/barber2.png" alt="Barber 2">
+            </div>
+            <div class="carousel-item">
+                <div class="master-name">Барбер Антон</div>
+                <button class="master-order order-request">Записаться &#8594;</button>
+                <img src="./images/barber1.png" alt="Barber 1">
+            </div>
+            <div class="carousel-item">
+                <div class="master-name">Барбер Влад</div>
+                <button class="master-order order-request">Записаться &#8594;</button>
+                <img src="./images/barber2.png" alt="Barber 2">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sale" class="sale wow animate__slideInLeft">
+    <div class="sale-container">
+        <div class="sale-action">
+            <div class="general-title">Дарим вам скидку</div>
+            <div class="sale-discount">
+                <div class="sale-action-discount">-15%</div>
+                <div class="sale-action-description">Создайте деловой имидж, который достоин Вас!
+                    Получите скидку на ваш первый визит.
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="red-button" id="get-sale-btn">Получить скидку</button>
+            </div>
+        </div>
+        <div class="sale-img">
+            <img src="./images/man-sale.png" alt="Man Sale">
+        </div>
+
+    </div>
+</section>
+
+<section id="instagram" class="instagram wow animate__slideInRight">
+    <div class="instagram-container">
+        <div class="instagram-action">
+            <div class="general-title">
+                Подписывайтесь на наш Instagram
+            </div>
+            <div class="instagram-info">
+                <img src="./images/instageram-icon.png" alt="Insta Icon">
+                <span>@Barber_club</span>
+                <a href="https://www.instagram.com/gc.barbershop.vinnitsa/" class="red-button" target="_blank">Перейти в
+                    профиль</a>
+            </div>
+
+        </div>
+        <div class="instagram-carousel">
+            <div class="instagram-carousel-item">
+                <img src="./images/1.png" alt="">
+            </div>
+            <div class="instagram-carousel-item">
+                <img src="./images/2.png" alt="">
+            </div>
+            <div class="instagram-carousel-item">
+                <img src="./images/3.png" alt="">
+            </div>
+            <div class="instagram-carousel-item">
+                <img src="./images/4.png" alt="">
+            </div>
+            <div class="instagram-carousel-item">
+                <img src="./images/5.png" alt="">
+            </div>
+            <div class="instagram-carousel-item">
+                <img src="./images/6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts" class="contacts wow animate__slideInLeft">
+    <div class="contacts-container">
+        <div class="general-title">Контакты</div>
+        <div class="contacts-action">
+            <div class="side-bar">
+                <a href="#" class="logo">
+                    <img src="./images/scissors.png" alt="Logo">
+                    <span>Barber club</span>
+                </a>
+                <span class="sidebar-label">Адрес барбершопа:</span>
+                <div class="side-bar-text">
+                    г. Киев, ул. Липинского,
+                    Офисный центр «Леонардо»
+                </div>
+                <span class="sidebar-label">Время работы:</span>
+                <div class="side-bar-text">
+                    Пн-Вс 10:00-21:00
+                </div>
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="./images/facebook-icon.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/instagram-light-icon.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/youtube.png" alt="">
+                    </a>
+                </div>
+                <div class="side-bar-text">
+                    info@barberclub.ru
+                </div>
+                <div class="contact-phone">
+                    <a href="tel:+380 (98) 816-93-96">+380 (98) 816-93-96</a>
+                </div>
+                <button class="order-call-btn">
+                    <img src="./images/phone.png" alt="Phone">
+                    <span>Заказать звонок</span>
+                </button>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7369.994894759788!2d28.420927832661896!3d49.22546881318456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56a117455ba449f2!2sGC%20BARBERSHOP!5e0!3m2!1suk!2sua!4v1598463263500!5m2!1suk!2sua"
+                        frameborder="0" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        @ Все права защищены
+    </div>
+</footer>
+
+<div id="order-call-popup">
+    <div class="order-call-popup">
+        <div id="order-call-popup-close">
+            <img src="./images/close.png" alt="">
+        </div>
+        <div id="order-call-popup-blade">
+            <img src="./images/blade.png" alt="">
+        </div>
+        <div id="order-call-popup-content">
+
+            <div class="order-call-popup-title">
+                Заказать звонок
+            </div>
+            <div class="order-call-popup-text">
+                Мы перезвоним вам в течении 5 минут.
+            </div>
+            <form action="mail-order-call.php" class="order-call-form" id="order-call-form" autocomplete="off"
+                  method="post">
+                <div class="order-input-container">
+                    <input type="text" name="name" id="name1" class="form-input" placeholder="Александр">
+                    <div class="error-message">Заполните поле "Имя"</div>
+                </div>
+                <div class="order-input-container">
+                    <input type="tel" name="phone" id="phone1" class="form-input" placeholder="+380(__)___-__-__">
+                    <div class="error-message">Заполните поле "Телефон"</div>
+                </div>
+            </form>
+            <div class="reserve-button">
+                <button class="red-button" id="order-call">Отправить заявку</button>
+            </div>
+        </div>
+
+        <div id="order-call-popup-success" class="order-call-popup-title">
+            Спасибо, мы свяжемся с вами в ближайшее время!
+        </div>
+    </div>
+
+</div>
+<div id="order-request-popup">
+    <div class="order-request">
+        <div id="order-request-popup-close">
+            <img src="./images/close.png" alt="Close">
+        </div>
+        <div id="order-request-popup-blade">
+            <img src="./images/blade2.png" alt="Blade2">
+        </div>
+        <div class="order-request-img">
+            <img src="./images/man-popup.png" alt="Man Popup">
+        </div>
+        <div class="order-request-form-container">
+            <div class="order-request-form-text">
+                <div class="general-title">Оформить заявку</div>
+                <div class="order-request-text-description">Мы перезвоним вам в течении 5 минут</div>
+            </div>
+            <form action="mail-order-request.php" class="order-request-form" autocomplete="off" method="post">
+                <div class="order-input-container">
+                    <input type="text" name="name" id="name2" class="form-input" placeholder="Александр">
+                    <div class="error-message">Заполните поле "Имя"</div>
+                </div>
+                <div class="order-input-container">
+                    <input type="tel" name="phone" id="phone2" class="form-input" placeholder="+380(__)___-__-__">
+                    <div class="error-message">Заполните поле "Телефон"</div>
+                </div>
+                <div class="order-input-container">
+                    <div class="select-container" id="services-select">
+                        <select name="service" id="service" class="form-input select">
+                            <option value="Не выбрана услуга" class="form-input">Выберите услугу</option>
+                            <option value="Стрижка" class="form-input">Стрижка</option>
+                            <option value="Бритье" class="form-input">Бритье</option>
+                            <option value="Комплексные услуги" class="form-input">Комплексные услуги</option>
+                            <option value="Дополнительная услуга" class="form-input">Дополнительная услуга</option>
+                        </select>
+                        <svg version="1.1" class="select-arrow" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                             y="0px"
+                             viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;"
+                             xml:space="preserve">
+<g>
+	<g>
+		<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+	</g>
+</g>
+</svg>
+                    </div>
+
+                    <div class="error-message">Заполните поле "Услуга"</div>
+                </div>
+                <div class="order-input-container">
+                    <div class="select-container" id="barbers-select">
+                        <select name="barber" id="barber" class="form-input select">
+                            <option value="Не выбран мастер" class="form-input">Выберите мастера</option>
+                            <option value="Алексей" class="form-input">Алексей</option>
+                            <option value="Роман" class="form-input">Роман</option>
+                            <option value="Стас" class="form-input">Стас</option>
+                            <option value="Игорь" class="form-input">Игорь</option>
+                            <option value="Влад" class="form-input">Влад</option>
+                            <option value="Антон" class="form-input">Антон</option>
+                        </select>
+                        <svg version="1.1" class="select-arrow" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                             y="0px"
+                             viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;"
+                             xml:space="preserve">
+<g>
+	<g>
+		<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+	</g>
+</g>
+</svg>
+                    </div>
+                    <div class="error-message">Заполните поле "Барбер"</div>
+                </div>
+                <div class="order-input-container">
+                    <input type="text" onfocus="(this.type='date')" name="date" id="date" class="form-input"
+                           placeholder="Введите дату">
+                    <div class="error-message">Заполните поле "Дата"</div>
+                </div>
+                <div class="order-input-container">
+                    <input type="text" onfocus="(this.type='time')" name="time" id="time" class="form-input"
+                           placeholder="Введите время">
+                    <div class="error-message">Заполните поле "Время"</div>
+                </div>
+            </form>
+            <button class="red-button" id="order-request-btn">Отправить заявку</button>
+        </div>
+        <div id="order-request-success">
+            <h2 class="general-title">Спасибо за ваш заказ!</h2>
+            <p class="order-request-text-description">
+                Мы перезвоним вам для уточнения
+                данных в течении 5 минут.
+            </p>
+        </div>
+    </div>
+</div>
+<div id="get-sale-popup">
+    <div class="get-sale-popup-text">
+        <div id="get-sale-popup-close">
+            <img src="./images/close.png" alt="Close">
+        </div>
+        Просто запишитесь в наш барбершоп и приходите – скидку мы применим после осуществления услуги.
+    </div>
+</div>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
